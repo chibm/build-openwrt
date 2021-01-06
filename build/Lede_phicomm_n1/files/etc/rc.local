@@ -8,5 +8,7 @@ EOF
 #
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
-
+if [ ! -d "/mnt/mmcblk1p3/docker" ]; then
+  mkdir -p /mnt/mmcblk1p3/docker
+fi
 exit 0
