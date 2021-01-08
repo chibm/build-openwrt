@@ -1,6 +1,0 @@
-config globals 'globals'
-#	option alt_config_file "/etc/docker/daemon.json"
-	option data_root "/mnt/mmcblk1p3/docker/"
-	option log_level "warn"
-	list registry_mirror "https://x7irsse2.mirror.aliyuncs.com"
-#	list registry_mirror "https://hub.docker.com"
